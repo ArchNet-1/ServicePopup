@@ -1,0 +1,26 @@
+{
+  "name": "com.archnet.service.popup",
+  "version": "2.0.0",
+  "displayName": "ArchNet - Popup Service",
+  "description": "Alerts, yes / no questions and text prompts you await from code: if (await popups.Confirm(\"Quit\", \"Leave the game?\")) … One at a time, the others wait in line.",
+  "unity": "6000.0",
+  "license": "MIT",
+  "documentationUrl": "https://archnet-plateform.fr/#ServicePopup",
+  "changelogUrl": "https://github.com/ArchNet-1/ServicePopup/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/ArchNet-1/ServicePopup/blob/main/LICENSE.md",
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "keywords": [
+    "archnet",
+    "service",
+    "popup",
+    "dialog",
+    "confirm"
+  ],
+  "author": {
+    "name": "ArchNet",
+    "email": "archnetmodule@gmail.com",
+    "url": "https://archnet-plateform.fr"
+  }
+}

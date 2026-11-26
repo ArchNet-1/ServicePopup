@@ -1,0 +1,31 @@
+{
+    "name": "ArchNet.Service.Popup.Recipe",
+    "rootNamespace": "ArchNet.Service.Editor",
+    "references": [
+        "ArchNet.Service.Popup",
+        "ArchNet.Core",
+        "ArchNet.Core.Recipe",
+        "ArchNet.Installer.Editor",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ARCHNET_HUB"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.archnet.hub",
+            "expression": "2.0.0",
+            "define": "ARCHNET_HUB"
+        }
+    ],
+    "noEngineReferences": false
+}

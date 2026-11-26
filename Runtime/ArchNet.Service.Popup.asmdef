@@ -1,0 +1,19 @@
+{
+    "name": "ArchNet.Service.Popup",
+    "rootNamespace": "ArchNet.Service",
+    "references": [
+        "ArchNet.Core",
+        "ArchNet.Core.UI",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

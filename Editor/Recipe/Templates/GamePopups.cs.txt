@@ -1,0 +1,20 @@
+// Created by the ArchNet Hub (Services > Popups). This file is yours: change it freely.
+// Use it from anywhere (in an async method):
+//   var popups = Services.Get<GamePopups>();
+//   await popups.Alert("Saved", "Your progress is safe.");
+//   if (await popups.Confirm("Quit", "Leave the game?")) Application.Quit();
+//   string name = await popups.Prompt("New save", "Name it:");   // null when cancelled
+// Restyle the popup: Assets/ArchNet/Popups/Prefabs/Popups.prefab
+// Docs: https://archnet-plateform.fr/#ServicePopup
+
+using System.Threading.Tasks;
+using ArchNet.Service;
+
+namespace {{NAMESPACE}}
+{
+    public class GamePopups : PopupService
+    {
+        // Add the questions your game asks often, in one place. For example:
+        public Task<bool> ConfirmQuit() => Confirm("Quit", "Leave the game? Unsaved progress will be lost.", "Quit", "Stay");
+    }
+}
